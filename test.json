@@ -1,0 +1,18 @@
+{
+    "version": 8,
+    "sources": {
+        "localsource": {
+            "type": "raster",
+            "tiles": ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"],
+            "tileSize": 256,
+            "attribution": "Maps Copyright 2018 <a href=\"http://www.geofabrik.de/\">Geofabrik GmbH</a> and <a href=\"http://www.openstreetmap.org/\">OpenStreetMap Contributors</a>"
+        }
+    },
+    "layers": [
+        {
+            "id": "locallayer",
+            "source": "localsource",
+            "type": "raster"
+        }
+    ]
+}
