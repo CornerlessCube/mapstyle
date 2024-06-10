@@ -5,7 +5,9 @@
             "type": "raster",
             "tiles": ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"],
             "tileSize": 256,
-            "attribution": "Maps Copyright 2018 <a href=\"http://www.geofabrik.de/\">Geofabrik GmbH</a> and <a href=\"http://www.openstreetmap.org/\">OpenStreetMap Contributors</a>"
+            "attribution": "Maps Copyright 2018 <a href=\"http://www.geofabrik.de/\">Geofabrik GmbH</a> and <a href=\"http://www.openstreetmap.org/\">OpenStreetMap Contributors</a>",
+            "minzoom": 5,
+            "maxzoom": 16
         }
     },
     "layers": [
